@@ -1,4 +1,4 @@
-import React, { useContext, useReducer } from 'react';
+import React, { useContext } from 'react';
 
 import CounterStyle from "./styles.module.css"
 import CounterContext from "../../context/CounterContext"

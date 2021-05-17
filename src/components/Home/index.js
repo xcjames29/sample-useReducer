@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import Context from '../Context';
 import Navbar from "../Navbar"
 import Sidebar from '../Sidebar';

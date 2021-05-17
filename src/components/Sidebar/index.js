@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import Sidestyle from "./styles.module.css"
 
 export default function Sidebar(props){
