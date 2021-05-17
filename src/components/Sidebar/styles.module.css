@@ -1,0 +1,26 @@
+.sidebarContainer{
+    width: 30vh;
+    display: flex;
+    padding: 20px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: coral;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.sidebarContainer h2{
+    color: rgb(138, 8, 8);
+}
+
+.sidebarContainer div{
+    height: 100px;
+    display: flex;
+    background-color: white;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    align-self: center;
+}

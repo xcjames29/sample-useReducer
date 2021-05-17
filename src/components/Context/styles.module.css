@@ -1,0 +1,15 @@
+.contentContainer{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 80vh;
+    padding: 20px;
+    background-color: royalblue;
+    overflow-y:scroll;
+}
+
+.contentContainer p{
+   font-size: 18px;
+}
