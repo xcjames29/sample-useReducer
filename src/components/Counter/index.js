@@ -6,7 +6,6 @@ import CounterContext from "../../context/CounterContext"
 
 export default function Counter() {
     let data = useContext(CounterContext);
-    console.log(data);
     return (
         <div className={CounterStyle.counterContainer}>
 
@@ -14,8 +13,6 @@ export default function Counter() {
             {data.counterState.counter}
             <button onClick={() => data.dispatch("reduce")}> Recuce Count</button>
             <button onClick={() => data.dispatch("reset")}> Reset</button>
-
-
         </div>
 
     )
